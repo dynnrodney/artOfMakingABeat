@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Courier Prime;
+  text-transform: uppercase;
+  background-color: #75A3BC;
+}
+
+.header {
+  text-align: center;
+  margin: 30px;
+  font-size: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+.box {
+  border: 3px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: none;
+}
+
+legend {
+  padding-top: 15px; 
+}
+
+label {
+  padding: 5px;
+}
+
+h2 {
+  margin: 20px;
+  font-size: 1.2em;
+}
+
+.paragraph {
+  margin: 15px;
+}
+
+.img-initial {
+  width: 100%;
+  max-width: 275px;
+  margin: 20px;
+}
+
+.img-incorrect {
+  width: 100%;
+  max-width: 275px;
+  margin: 20px;
+}
+
+.img-correct {
+  width: 100%;
+  max-width: 275px;
+  margin: 10px;
+}
+
+.img-result {
+  width: 50%;
+  max-width: 275px;
+  margin: 15px;
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 15em;
+  height: 3em;
+  border: 1px solid #75A3BC;
+  color: white;
+  background-color: #4281A4;
+  font-size: 13px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #75A3BC;
+  border-color: white;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 20px;
+}
+
+.scorePage {
+  border: 3px solid black;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .img-initial {
+    min-width: 450px;
+  }
+
+  .img-incorrect {
+    min-width: 450px;
+  }
+  
+  .img-correct {
+    min-width: 450px;
+  }
+  
+  .img-result {
+    min-width: 450px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .img-initial {
+    min-width: 700px;
+  }
+
+  .img-incorrect {
+    min-width: 700px;
+  }
+  
+  .img-correct {
+    min-width: 700px;
+  }
+  .img-result {
+    min-width: 700px;
+  }
+}
